@@ -22,8 +22,8 @@
       "web": "https://github.com/megawac"
     }
   ],
-  "name": "ramda",
-  "description": "A practical functional library for JavaScript programmers.",
+  "name": "@eluvio/ramda-fork",
+  "description": "A fork of ramda v0.28.0 to apply fix for [DEP0148] warning.",
   "keywords": [
     "ramda",
     "functional",
@@ -38,12 +38,12 @@
     "fantasy-land"
   ],
   "sideEffects": false,
-  "version": "0.28.0",
+  "version": "0.28.1",
   "homepage": "https://ramdajs.com/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ramda/ramda.git"
+    "url": "git://github.com/eluv-io/ramda-fork.git"
   },
   "funding": {
     "type": "opencollective",
@@ -56,6 +56,9 @@
       "import": "./es/index.js",
       "default": "./src/index.js"
     },
+    "./es/*": "./es/*.js",
+    "./src/*": "./src/*.js",
+    "./dist/*": "./dist/*.js",
     "./es/": "./es/",
     "./src/": "./src/",
     "./dist/": "./dist/"
